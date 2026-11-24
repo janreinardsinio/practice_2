@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Element Highlighter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interactive Element Highlighter</h1>
+        <p>Enter a CSS selector to highlight elements.</p>
+
+        <input type="text" id="selectorInput"
+               placeholder="Example: p, h1, .box, #sample">
+
+        <button id="highlightBtn">Highlight</button>
+        <button id="resetBtn">Reset</button>
+
+        <p id="message"></p>
+
+        <h2>Sample Elements</h2>
+
+        <div class="content">
+            <h3>Heading One</h3>
+            <p>This is the first paragraph.</p>
+            <p>This is the second paragraph.</p>
+
+            <div class="box">
+                This is a sample box.
+            </div>
+
+            <div class="box">
+                This is another sample box.
+            </div>
+
+            <button class="sample-btn">Sample Button</button>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
